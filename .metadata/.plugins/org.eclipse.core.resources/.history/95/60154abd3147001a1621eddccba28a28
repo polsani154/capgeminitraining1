@@ -1,0 +1,9 @@
+package controllers;
+
+public class salaryException {
+
+	public salaryException() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

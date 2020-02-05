@@ -1,0 +1,12 @@
+
+public class product {
+
+	private int id;
+	private String name;
+	private double price;
+	private String category;
+	public product() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

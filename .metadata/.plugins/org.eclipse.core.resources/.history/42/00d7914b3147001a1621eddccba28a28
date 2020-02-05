@@ -1,0 +1,30 @@
+package collections;
+import entities.*;
+
+import java.util.*;
+public class EmployeeTable {
+
+	private HashMap<Integer,Employee> data=new HashMap<Integer,Employee>();
+	
+	public EmployeeTable() {
+		// TODO Auto-generated constructor stub
+	}
+	public void  add(Employee e)
+	{
+		int key=e.getId();
+		if(data.containsKey(e))
+		{
+			System.out.println("Employee already exists with the key "+key);
+			return;
+		}
+		data.put(key, e);
+	}
+	public void remove(int key)
+	{
+		if(!data.containsKey(key))
+		{
+			System.out.println("No data exists with id:"+key);
+			return;
+		}
+	}
+}

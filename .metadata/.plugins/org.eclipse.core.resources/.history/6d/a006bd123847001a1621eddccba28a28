@@ -1,0 +1,8 @@
+package controllers;
+
+public interface IEmployeeDAO {
+	
+	void getEmployeeDetails(int key);
+	void removeEmployee(int key);
+
+}

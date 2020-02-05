@@ -1,0 +1,23 @@
+import java.util.ArrayList;
+
+
+public class exercise7 {
+
+	public exercise7() {
+		// TODO Auto-generated constructor stub
+	}
+	public static int[] getSorted(Integer[] arr)
+	{
+		ArrayList arrlist=new ArrayList();
+		Integer a=556;
+		
+		return null ;
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Integer a=5656;
+		System.out.println(Integer.valueOf(a.intValue()));
+		
+	}
+
+}

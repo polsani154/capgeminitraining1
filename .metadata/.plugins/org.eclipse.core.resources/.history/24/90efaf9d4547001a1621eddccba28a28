@@ -1,0 +1,11 @@
+package services;
+import controllers.salaryException;
+import entities.*;
+public interface IEmployeeService {
+	
+	void getEmployeeDetails(int key);
+	double getEmployeeSalary(int key);
+	String getEmployeeName(int key);
+	int addEmployee() throws salaryException;
+	void removeEmployee(int k);
+}

@@ -1,0 +1,12 @@
+package entities;
+
+public class Screen extends Theatre {
+
+	private int screennumber;
+	
+	public void Screen() {
+		// TODO Auto-generated constructor stub
+	}
+	
+
+}

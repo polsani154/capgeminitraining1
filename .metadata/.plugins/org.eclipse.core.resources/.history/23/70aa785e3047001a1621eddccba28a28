@@ -1,0 +1,13 @@
+package collections;
+import entities.*;
+
+import java.util.*;
+public class EmployeeTable {
+
+	private HashMap<Integer,Employee> data=new HashMap<Integer,Employee>();
+	
+	public EmployeeTable() {
+		// TODO Auto-generated constructor stub
+	}
+	
+}

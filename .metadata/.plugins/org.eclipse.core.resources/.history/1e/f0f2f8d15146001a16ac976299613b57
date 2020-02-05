@@ -1,0 +1,10 @@
+
+public class Store {
+
+	private int totalvalue;
+	private int numberofproducts;
+	private product[] products;
+	public Store() {
+		// TODO Auto-generated constructor stub
+	}
+}

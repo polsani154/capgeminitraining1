@@ -1,0 +1,9 @@
+package services;
+
+public class EmployeeDAO implements IEmployeeDAO {
+
+	public EmployeeDAO() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

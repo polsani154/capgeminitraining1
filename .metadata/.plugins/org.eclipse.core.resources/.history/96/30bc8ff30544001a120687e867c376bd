@@ -1,0 +1,364 @@
+package patterns;
+
+class Font 
+{
+	public int getLine1(char ch)
+	{
+		switch(ch)
+		{
+		case 'A':
+		{
+			
+		}
+		default:
+		{
+			
+		}
+		}
+		return 1;
+	}
+}
+
+public class pattern {
+	
+	public void printpattern(int i)
+	{
+		Integer a=10;
+		String s=String.format("%9s", Integer.toBinaryString(i)).replace(' ', '0');
+		s=s.replace('1', '#');
+		s=s.replace('0', ' ');
+		System.out.println(s);
+		
+	}
+	
+	public void A()  throws InterruptedException
+	{
+        this.printpattern(16);
+        wait();
+        this.printpattern(40);
+        wait();
+        this.printpattern(124);
+        wait();
+        this.printpattern(130);
+        wait();
+        this.printpattern(257);
+        wait();
+	}
+	public void B()  throws InterruptedException
+	{
+        printpattern(508);
+        wait();
+        printpattern(258);
+        wait();
+        printpattern(380);
+        wait();
+        printpattern(258);
+        wait();
+		printpattern(508);
+	}
+	public void C()  throws InterruptedException
+	{
+        printpattern(63);
+        wait();
+        printpattern(64+128);
+        wait();
+        printpattern(256);
+        wait();
+        printpattern(64+128);
+        wait();
+		printpattern(63);
+	}
+	public void D()  throws InterruptedException
+	{
+        printpattern(0b111111000);
+        wait();
+        printpattern(0b100000010);
+        wait();
+        printpattern(0b100000001);
+        wait();
+        printpattern(0b100000010);
+        wait();
+		printpattern(0b111111000);
+		
+	}
+	public void E()  throws InterruptedException
+	{
+        printpattern(0b111111111);
+        wait();
+        printpattern(0b100000000);
+        wait();
+        printpattern(0b111111000);
+        wait();
+        printpattern(0b100000000);
+        wait();
+		printpattern(0b111111111);
+		
+	}	
+	
+	public void F()  throws InterruptedException
+	{
+            printpattern(0b111111100);
+            wait();
+            printpattern(0b100000000);
+            wait();
+            printpattern(0b111110000);
+            wait();
+            printpattern(0b100000000);
+            wait();
+			printpattern(0b100000000);
+			
+	}
+	public void G()  throws InterruptedException
+	{
+            printpattern(0b011111100);
+            wait();
+            printpattern(0b100000000);
+            wait();
+            printpattern(0b100111110);
+            wait();
+            printpattern(0b100001010);
+            wait();
+			printpattern(0b011111010);
+			
+	}
+	public void H() throws InterruptedException
+	{
+            printpattern(0b110000011);
+            wait();
+            printpattern(0b110000011);
+            wait();
+            printpattern(0b111111111);
+            wait();
+            printpattern(0b110000011);
+            wait();
+			printpattern(0b110000011);
+			
+	}
+	public void I()  throws InterruptedException
+	{
+            printpattern(0b111111111);
+            wait();
+            printpattern(0b00010000);
+            wait();
+            printpattern(0b00010000);
+            wait();
+            printpattern(0b00010000);
+            wait();
+			printpattern(0b111111111);
+			
+	}
+	public void J()  throws InterruptedException
+	{
+            printpattern(0b111111100);
+            wait();
+            printpattern(0b00010000);
+            wait();
+            printpattern(0b00010000);
+            wait();
+            printpattern(0b10010000);
+            wait();
+			printpattern(0b01100000);
+			
+	}
+	public void K()  throws InterruptedException
+	{
+            printpattern(0b100001100);
+            wait();
+            printpattern(0b100110000);
+            wait();
+            printpattern(0b111000000);
+            wait();
+            printpattern(0b100110000);
+            wait();
+			printpattern(0b100001100);
+	}
+	public void L()  throws InterruptedException
+	{
+            printpattern(0b100000000);
+            wait();
+            printpattern(0b100000000);
+            wait();
+            printpattern(0b100000000);
+            wait();
+            printpattern(0b100000000);
+            wait();
+			printpattern(0b111111110);
+	}
+	public void M()  throws InterruptedException
+	{
+            printpattern(0b100000001);
+            wait();
+            printpattern(0b111000111);
+            wait();
+            printpattern(0b100101001);
+            wait();
+            printpattern(0b100010001);
+            wait();
+			printpattern(0b100000001);
+	}
+	public void N()  throws InterruptedException
+	{
+            printpattern(0b100000001);
+            wait();
+            printpattern(0b111000001);
+            wait();
+            printpattern(0b100110001);
+            wait();
+            printpattern(0b100001101);
+            wait();
+			printpattern(0b100000011);
+	}
+	public void O()  throws InterruptedException
+	{
+            printpattern(0b011111110);
+            wait();
+            printpattern(0b100000001);
+            wait();
+            printpattern(0b100000001);
+            wait();
+            printpattern(0b100000001);
+            wait();
+			printpattern(0b011111110);
+	}
+	public void P()  throws InterruptedException
+	{
+            printpattern(0b111111100);
+            wait();
+            printpattern(0b100000010);
+            wait();
+            printpattern(0b111111100);
+            wait();
+            printpattern(0b100000000);
+            wait();
+			printpattern(0b100000000);
+	}
+	public void Q()  throws InterruptedException
+	{
+            printpattern(0b011111110);
+            wait();
+            printpattern(0b100000001);
+            wait();
+            printpattern(0b100001101);
+            wait();
+            printpattern(0b100000110);
+            wait();
+			printpattern(0b011111001);
+	}
+	public void R()  throws InterruptedException
+	{
+            printpattern(0b111111100);
+            wait();
+            printpattern(0b100000010);
+            wait();
+            printpattern(0b101111100);
+            wait();
+            printpattern(0b100011000);
+            wait();
+			printpattern(0b100000110);
+	}
+	public void S()  throws InterruptedException
+	{
+			printpattern(0b011111111);
+			wait();
+            printpattern(0b100000000);
+            wait();
+            printpattern(0b011111110);
+            wait();
+            printpattern(0b000000001);
+            wait();
+			printpattern(0b111111110);
+	}	
+	public void T()  throws InterruptedException
+	{
+            printpattern(0b111111111);
+            wait();
+            printpattern(0b00010000);
+            wait();
+            printpattern(0b00010000);
+            wait();
+            printpattern(0b00010000);
+            wait();
+			printpattern(0b00010000);			
+	}
+	public void U()  throws InterruptedException
+	{
+            printpattern(0b100000001);
+            wait();
+            printpattern(0b100000001);
+            wait();
+            printpattern(0b100000001);
+            wait();
+            printpattern(0b100000001);
+            wait();
+			printpattern(0b011111110);			
+	}
+	public void V()  throws InterruptedException
+	{
+            printpattern(0b100000001);
+            wait();
+            printpattern(0b010000010);
+            wait();
+            printpattern(0b001000100);
+            wait();
+            printpattern(0b000101000);
+            wait();
+			printpattern(0b000010000);			
+	}
+	public void W()  throws InterruptedException
+	{
+            printpattern(0b100000001);
+            wait();
+            printpattern(0b100010001);
+            wait();
+            printpattern(0b100101001);
+            wait();
+            printpattern(0b101000101);
+            wait();
+			printpattern(0b100000001);			
+	}
+	public void X()  throws InterruptedException
+	{
+            printpattern(0b100000001);
+            wait();
+            printpattern(0b001000100);
+            wait();
+            printpattern(0b000010000);	
+            wait();
+            printpattern(0b001000100);
+            wait();
+			printpattern(0b100000001);			
+	}
+	public void Y()  throws InterruptedException
+	{
+			printpattern(0b100000001);
+			wait();
+			printpattern(0b001000100);
+			wait();
+			printpattern(0b000010000);
+			wait();
+			printpattern(0b000010000);
+			wait();
+			printpattern(0b000010000);
+	}
+	public void Z()  throws InterruptedException
+	{
+		printpattern(0b11111111);
+		wait();
+		printpattern(0b00000110);
+		wait();
+		printpattern(0b00011000);
+		wait();
+		printpattern(0b01100000);
+		wait();
+		printpattern(0b11111111);
+	}
+	public static void main(String []args) throws InterruptedException
+	{
+		pattern p=new pattern();
+//		p.A();
+//		p.B();
+		p.Z();
+
+	}
+
+}

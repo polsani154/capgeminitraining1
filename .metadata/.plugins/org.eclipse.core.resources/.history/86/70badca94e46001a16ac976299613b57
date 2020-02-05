@@ -1,0 +1,13 @@
+package Lab9;
+
+public class concurrent {
+
+	public concurrent() {
+		// TODO Auto-generated constructor stub
+	}
+	public static void main()
+	{
+		
+	}
+
+}

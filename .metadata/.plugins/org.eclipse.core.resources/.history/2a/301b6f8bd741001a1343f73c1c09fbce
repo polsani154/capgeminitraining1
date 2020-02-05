@@ -1,0 +1,18 @@
+import java.util.Date;
+
+
+public class date {
+
+	static Object a=new date();
+	public int b=6;
+	public date() {
+		// TODO Auto-generated constructor stub
+	}
+	public static void main(String[] args)
+	{
+		Date b=new Date();
+		System.out.println("hello");
+		System.out.println(System.identityHashCode(date.a));
+		System.out.println(System.identityHashCode(b));
+	}
+}

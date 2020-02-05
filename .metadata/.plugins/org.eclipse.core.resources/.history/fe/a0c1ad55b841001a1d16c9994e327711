@@ -1,0 +1,9 @@
+package exercise7;
+
+public class Fileinfo {
+
+	public Fileinfo() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

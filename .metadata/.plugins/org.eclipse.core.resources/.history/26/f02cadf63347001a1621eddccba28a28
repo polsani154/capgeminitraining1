@@ -1,0 +1,31 @@
+package controllers;
+
+import java.io.*;
+public class validator {
+
+	public validator() {
+		// TODO Auto-generated constructor stub
+	}
+	public void checkage(int age) 
+	{
+		if(age<18 || age>50)
+		{
+			try {
+				throw new AgeValidation("Age constraint is not satisfied");
+			} catch (AgeValidation e) {
+				// TODO Auto-generated catch block
+				e.message();
+			}
+		}
+	}
+	public void checksalary(int salary) throws salaryException
+	{
+		if(salary<0)
+		{
+				throw new salaryException("Age should not be negative");
+
+		}
+	}
+	
+
+}

@@ -1,0 +1,12 @@
+package controllers;
+
+public class AgeValidation extends Exception {
+
+	public AgeValidation() {
+		// TODO Auto-generated constructor stub
+	}
+	public message(String s)
+	{
+		System.err.println("Age is below the limit");
+	}
+}

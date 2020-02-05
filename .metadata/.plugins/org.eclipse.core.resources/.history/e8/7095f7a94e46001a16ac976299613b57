@@ -1,0 +1,13 @@
+package Lab9;
+import java.util.*;
+public class concurrent implements Runnable {
+
+	public concurrent() {
+		// TODO Auto-generated constructor stub
+	}
+	public static void main()
+	{
+		ExecuterServeice es=new ExecuterService();
+	}
+
+}

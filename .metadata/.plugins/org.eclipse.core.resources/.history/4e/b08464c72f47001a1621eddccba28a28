@@ -1,0 +1,10 @@
+package collections;
+
+public class EmployeeTable {
+
+	private Hashmap<Integer,Employee>
+	public EmployeeTable() {
+		// TODO Auto-generated constructor stub
+	}
+	
+}

@@ -1,0 +1,15 @@
+
+public class Demo {
+
+	public Demo() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Integer a=10;
+		Integer b=10;
+		System.out.println(a==b);
+	}
+
+}

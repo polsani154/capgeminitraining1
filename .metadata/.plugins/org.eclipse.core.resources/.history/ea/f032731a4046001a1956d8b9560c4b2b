@@ -1,0 +1,11 @@
+
+public class product {
+
+	private int id;
+	private String name;
+	private double price;
+	public product() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

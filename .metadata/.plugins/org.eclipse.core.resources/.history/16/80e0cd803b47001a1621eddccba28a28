@@ -1,0 +1,33 @@
+package controllers;
+import java.util.Collections;
+
+import collections.*;
+import entities.*;
+public class EmployeeDAO implements IEmployeeDAO{
+
+	public EmployeeDAO() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public void getEmployeeDetails(int key) {
+		// TODO Auto-generated method stub
+		;
+		
+	}
+
+	public void removeEmployee(int key) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public double getEmployeeSalary(int key) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	public String getEmployeName(int key) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

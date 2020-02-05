@@ -1,0 +1,10 @@
+package services;
+import entities.*;
+public interface IEmployeeService {
+	
+	Employee getEmployeeDetails(int key);
+	int getEmployeeSalary(int key);
+	String getEmployeeName(int key);
+	void addEmployee();
+	void removeEmployee(int k);
+}

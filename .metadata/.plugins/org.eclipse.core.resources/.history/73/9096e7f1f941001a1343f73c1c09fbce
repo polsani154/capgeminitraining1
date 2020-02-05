@@ -1,0 +1,19 @@
+import java.io.*;
+
+
+public class file {
+
+	public file() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public static void main(String[] args) throws IOException {
+		// TODO Auto-generated method stub
+		File f=new File("sample.txt");
+		File g=new File("sample.txt");
+		g.createNewFile();
+		System.out.println(f.hashCode());
+		System.out.println(g.hashCode());
+	}
+
+}

@@ -1,0 +1,25 @@
+
+public class exception {
+
+	public exception() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int x=0;
+		int y=10;
+		int []b;
+		System.out.println(b instanceof Object);
+		try
+		{
+			y/=x;
+		}
+		catch(Exception e)
+		{
+			System.out.println("error");
+		}
+		
+	}
+
+}

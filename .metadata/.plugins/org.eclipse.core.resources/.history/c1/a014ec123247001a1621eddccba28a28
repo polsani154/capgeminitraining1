@@ -1,0 +1,9 @@
+package controllers;
+
+public class validator {
+
+	public validator() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

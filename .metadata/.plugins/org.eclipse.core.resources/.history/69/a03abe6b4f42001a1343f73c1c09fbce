@@ -1,0 +1,19 @@
+
+public class Main {
+
+	static int a=56;
+	public Main() {
+		// TODO Auto-generated constructor stub
+	}
+	public static void main(int a)
+	{
+		Main.a=a;
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+//		System.out.println(6);
+		main(6);
+		System.out.println(a);
+	}
+
+}
