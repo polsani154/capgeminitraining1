@@ -1,9 +1,0 @@
-package exercise10;
-
-public class nameValidation {
-
-	public nameValidation() {
-		// TODO Auto-generated constructor stub
-	}
-
-}

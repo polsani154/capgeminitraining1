@@ -1,0 +1,9 @@
+package seatmapproject;
+
+public class Seatmap {
+
+	public Seatmap() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

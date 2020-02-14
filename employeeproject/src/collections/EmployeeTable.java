@@ -7,7 +7,6 @@ public class EmployeeTable {
 
 	static int id=1;
 	private static HashMap<Integer,Employee> data=new HashMap<Integer,Employee>();
-	
 	public  EmployeeTable() {
 		// TODO Auto-generated constructor stub
 	}

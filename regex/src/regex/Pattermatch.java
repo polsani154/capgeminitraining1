@@ -18,7 +18,6 @@ public class Pattermatch {
 		System.out.println(Pattern.matches("[0-9A-Za-z]+(\\.)*[0-9A-Za-z]*@gmail.com","polsanisandeep@gmail.com"));
 		System.out.println(Pattern.matches("[a-zA-Z0-9@.]*", "polsani.sandeep@gmail.com"));
 		String s="polsani";
-		System.out.println(yu8);
 //		System.out.println(Collections.reverseOrder(s));
 	
 	}

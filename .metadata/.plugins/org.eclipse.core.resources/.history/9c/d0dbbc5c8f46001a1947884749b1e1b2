@@ -1,9 +1,0 @@
-package entities;
-
-public class Slot {
-
-	public Slot() {
-		// TODO Auto-generated constructor stub
-	}
-
-}

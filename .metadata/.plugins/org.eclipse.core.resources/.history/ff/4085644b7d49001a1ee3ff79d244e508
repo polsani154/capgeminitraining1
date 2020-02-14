@@ -1,0 +1,44 @@
+package practise;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+public class Rowprint {
+	
+	private int columns;
+	private List<Boolean> list=new ArrayList();
+	public Rowprint() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	
+	public int getColumns() {
+		return columns;
+	}
+
+
+	public void setColumns(int columns) {
+		this.columns = columns;
+	}
+
+	
+
+	public List<Boolean> getList() {
+		return list;
+	}
+
+
+	public void setList(List<Boolean> list) {
+		this.list = list;
+	}
+
+
+	public static void main(String[] args)
+	{
+		Rowprint obj=new Rowprint();
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter number of available columns in a row");
+		
+	}
+}

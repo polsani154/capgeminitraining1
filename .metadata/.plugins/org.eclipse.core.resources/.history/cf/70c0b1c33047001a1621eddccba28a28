@@ -1,9 +1,0 @@
-package controllers;
-
-public class AgeValidation {
-
-	public AgeValidation() {
-		// TODO Auto-generated constructor stub
-	}
-
-}

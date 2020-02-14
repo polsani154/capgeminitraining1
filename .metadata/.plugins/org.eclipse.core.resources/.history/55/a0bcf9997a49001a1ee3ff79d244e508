@@ -1,0 +1,9 @@
+package practise;
+
+public class Rowprint {
+
+	public Rowprint() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

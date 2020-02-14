@@ -1,8 +1,0 @@
-package services;
-import entities.*;
-public interface IEmployeeDAO {
-	
-	Employee getEmployeeDetails(int key);
-	int getEmployeeSalary(int key);
-	String getEmployeeName(int key);
-}

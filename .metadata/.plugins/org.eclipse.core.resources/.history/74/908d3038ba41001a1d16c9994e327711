@@ -1,9 +1,0 @@
-package exercise8;
-
-public class PositiveString {
-
-	public PositiveString() {
-		// TODO Auto-generated constructor stub
-	}
-
-}

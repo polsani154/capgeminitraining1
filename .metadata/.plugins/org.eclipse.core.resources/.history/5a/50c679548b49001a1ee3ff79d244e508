@@ -1,0 +1,9 @@
+package practise;
+
+public class seatsection {
+
+	public seatsection() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

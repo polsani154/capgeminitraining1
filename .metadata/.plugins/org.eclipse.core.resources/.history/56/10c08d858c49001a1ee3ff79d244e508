@@ -1,0 +1,15 @@
+package practise;
+
+public class seatsection {
+
+	private int rows;
+	private double price;
+	private String section_name;
+
+	public seatsection() {
+		// TODO Auto-generated constructor stub
+		
+	}
+	
+
+}

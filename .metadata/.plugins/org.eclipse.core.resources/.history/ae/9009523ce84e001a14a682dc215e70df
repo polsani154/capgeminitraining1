@@ -1,0 +1,19 @@
+package Repository;
+
+import java.util.*;
+
+public class Show {
+
+	private Integer showId;
+	private Date showStartTime;
+	private Date showEndTime;
+	private Seat[] seats;
+	private String showName;
+	private Movie movieName;
+	private Integer screenId;
+	private Integer theatreId;
+	public Show() {
+		// TODO Auto-generated constructor stub
+	}
+	
+}

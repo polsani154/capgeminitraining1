@@ -1,0 +1,17 @@
+package practise;
+
+import java.util.stream.Stream;
+
+public class Streams {
+
+	public Streams() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public static void main(String[] args)
+	{
+		String[] str = {"polsani","sandeep","is","a","good","boy"};
+		Stream<String> stream=Stream.of(str);
+		System.out.println(stream.findAny());;
+	}
+}
