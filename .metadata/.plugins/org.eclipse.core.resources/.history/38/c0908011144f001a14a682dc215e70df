@@ -1,0 +1,9 @@
+package DAO;
+
+public class TicketAccessModule {
+
+	public TicketAccessModule() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

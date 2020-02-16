@@ -7,7 +7,7 @@ public class seatmap {
 	}
 	public static void main(String[] args)
 	{
-		
+		seatsection sc=new seatsection();
 	}
 
 }

@@ -1,5 +1,11 @@
 package Repository;
 
+import java.util.regex.Pattern;
+
+import javax.naming.LimitExceededException;
+
+import collections.ShowCollection;
+
 public class Screen {
 
 	private Integer screenId;
@@ -13,10 +19,42 @@ public class Screen {
 		// TODO Auto-generated constructor stub
 	}
 	
+	public Screen(Integer screenId, Integer theatreId, String screenName,
+			Show[] showList, Integer rows, Integer columns) {
+		super();
+		this.screenId = screenId;
+		this.theatreId = theatreId;
+		this.screenName = screenName;
+		this.showList = showList;
+		this.rows = rows;
+		this.columns = columns;
+	}
+
+	public void addShow(Show[] showList,Show show)
+	{
+		if(showList==null)
+		{
+			this.showList=new Show[]{show};
+			return;
+		}
+		Show[] tempShowList=new Show[showList.length+1];
+		for (int i = 0; i < showList.length; i++) {
+			tempShowList[i]=showList[i];
+		}
+		tempShowList[showList.length]=show;
+		this.showList=tempShowList; 
+	}
 	public Show searchShow(String showName)
 	{
+		for (Show show : ShowCollection.ShowData.values()) {
+			if(show.getShowName().equals(showName) && show.getTheatreId()==1001)
+			{
+				return show;
+			}
+		}
 		return null;
 	}
+	
 	
 	public Show[] showShows()
 	{
@@ -70,5 +108,5 @@ public class Screen {
 	public void setColumns(Integer columns) {
 		this.columns = columns;
 	}
-	
+
 }

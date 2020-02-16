@@ -1,0 +1,9 @@
+package collections;
+
+public class MovieCollection {
+
+	public MovieCollection() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

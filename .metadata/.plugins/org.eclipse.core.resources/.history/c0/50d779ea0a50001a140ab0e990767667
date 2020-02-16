@@ -1,0 +1,15 @@
+package collections;
+
+import java.util.HashMap;
+
+import DAO.SeatAccessModule;
+import Repository.Seat;
+
+public class SeatCollection {
+
+
+	public SeatCollection() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

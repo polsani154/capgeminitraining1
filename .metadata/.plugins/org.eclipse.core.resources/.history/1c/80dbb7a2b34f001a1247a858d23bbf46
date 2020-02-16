@@ -1,0 +1,35 @@
+package practise;
+enum SeatStatus
+{
+	Booked,
+	Blocked,
+	Available,
+}
+enum SeatType
+{
+	Seat,
+	None
+}
+
+public class Seat {
+
+	public double price;
+	public SeatStatus seatStatus;
+	public SeatType seatType;
+	public Integer seatId;
+	public Seat() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	public void  seat(double price,SeatType type,Integer seatId)
+	{
+	
+		this.price=price;
+		seatType=type;
+		if(type==SeatType.Seat)
+		{
+
+		}
+		this.seatId=seatId;
+	}
+}

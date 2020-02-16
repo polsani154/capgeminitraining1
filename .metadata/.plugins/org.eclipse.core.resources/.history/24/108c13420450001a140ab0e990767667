@@ -1,0 +1,9 @@
+package DAO;
+
+public class SeatAccessModule {
+
+	public SeatAccessModule() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

@@ -1,0 +1,9 @@
+package collections;
+
+public class SeatCollection {
+
+	public SeatCollection() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

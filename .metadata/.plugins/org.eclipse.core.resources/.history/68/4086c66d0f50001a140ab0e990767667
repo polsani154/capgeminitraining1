@@ -1,0 +1,9 @@
+package DAO;
+
+public class ShowAccessModule {
+
+	public ShowAccessModule() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

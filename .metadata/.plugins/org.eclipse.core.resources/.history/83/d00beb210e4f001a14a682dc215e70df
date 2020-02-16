@@ -1,0 +1,9 @@
+package collections;
+
+public class TheatreCollection {
+
+	public TheatreCollection() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

@@ -1,0 +1,24 @@
+package DAO;
+
+import Repository.Seat;
+import Repository.seatStatus;
+
+public class SeatAccessModule {
+
+	public SeatAccessModule() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	public static Seat[] createSeatArray(int n, double seatprice)
+	{
+		Seat[] seatArray=new Seat[n];
+		for (int i = 0; i < n; i++) {
+			Seat seat=new Seat();
+			seat.setSeatId(i+1);
+			seat.setSeatPrice(seatprice);
+			seat.setSeatStatus(seatStatus.Available);
+			seatArray[i]=seat;
+		}
+		return seatArray;
+	}
+}

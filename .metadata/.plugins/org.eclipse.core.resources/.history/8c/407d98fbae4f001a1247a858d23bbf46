@@ -1,0 +1,29 @@
+package practice;
+
+import java.time.Duration;
+import java.time.LocalDate;
+import java.time.temporal.ChronoUnit;
+import java.util.Date;
+
+public class sampledate {
+
+	public sampledate() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+//		LocalDate d=new LocalDate(2019, 10, 19);/
+		LocalDate a=LocalDate.now();
+		LocalDate b=LocalDate.of(2020, 10, 19);
+		LocalDate c=LocalDate.of(2020, 5, 18);
+		System.out.println(a);
+		Duration d=Duration.between(a, b);
+		System.out.println(d.get(ChronoUnit.DAYS));
+		System.out.println(b);
+		
+
+	}
+
+}

@@ -1,0 +1,9 @@
+package collections;
+
+public class BookingCollection {
+
+	public BookingCollection() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

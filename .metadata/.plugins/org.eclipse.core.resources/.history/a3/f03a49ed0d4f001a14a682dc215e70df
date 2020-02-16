@@ -1,0 +1,14 @@
+package collections;
+
+import java.util.HashMap;
+
+import Repository.Screen;
+
+public class SeatCollection {
+
+	static HashMap<Integer,Seat> ScreenData=new HashMap<Integer,Seat>();
+	public SeatCollection() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

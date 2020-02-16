@@ -1,0 +1,9 @@
+package collections;
+
+public class TicketCollection {
+
+	public TicketCollection() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

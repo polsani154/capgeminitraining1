@@ -1,0 +1,14 @@
+package DAO;
+import Repository.Screen;
+import collections.ScreenCollection;
+public class ScreenAccessModule {
+
+	public ScreenAccessModule() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public Screen getScreen()
+	{
+		
+	}
+}

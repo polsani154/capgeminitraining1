@@ -2,6 +2,9 @@ package Repository;
 
 import java.util.*;
 
+import collections.ScreenCollection;
+import DAO.SeatAccessModule;
+
 public class Show {
 
 	private Integer showId;
@@ -15,6 +18,20 @@ public class Show {
 	public Show() {
 		// TODO Auto-generated constructor stub
 	}
+	
+	public Show(Integer showId, Date showStartTime, Date showEndTime, String showName, Movie movieName, Integer screenId,
+			Integer theatreId) {
+		
+		this.showId = showId;
+		this.showStartTime = showStartTime;
+		this.showEndTime = showEndTime;
+		this.showName = showName;
+		this.movieName = movieName;
+		this.screenId = screenId;
+		this.theatreId = theatreId;
+		this.seats=SeatAccessModule.createSeatArray(ScreenCollection.ScreenData.get(screenId).getRows()*ScreenCollection.ScreenData.get(screenId).getColumns(), 100.0);
+	}
+
 	public Integer getShowId() {
 		return showId;
 	}

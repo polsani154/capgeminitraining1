@@ -1,0 +1,18 @@
+package collections;
+
+import java.util.HashMap;
+
+import Repository.Show;
+
+public class ShowCollection {
+
+	static HashMap<Integer,Show> ShowData=new HashMap<Integer,Show>();
+	static
+	{
+		
+	}
+	public ShowCollection() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

@@ -1,0 +1,8 @@
+package Repository;
+
+public enum BookingState {
+
+		Available,
+		Bolcked,
+		Booked
+}

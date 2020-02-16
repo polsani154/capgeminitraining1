@@ -1,0 +1,18 @@
+package practise;
+enum seatStatus
+{
+	Booked,
+	Blocked,
+	Available
+}
+
+public class Seat {
+
+	public double price;
+	public seatStatus seatstatus;
+	public Integer seatId;
+	public Seat() {
+		// TODO Auto-generated constructor stub
+	}
+	
+}

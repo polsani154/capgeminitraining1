@@ -15,6 +15,22 @@ public class Movie {
 	public Movie() {
 		// TODO Auto-generated constructor stub
 	}
+	
+	
+
+	public Movie(Integer movieId, String movieName, String movieGenre,
+			String movieDirector, Integer movieLength, Date movieReleaseDate) {
+		super();
+		this.movieId = movieId;
+		this.movieName = movieName;
+		this.movieGenre = movieGenre;
+		this.movieDirector = movieDirector;
+		this.movieLength = movieLength;
+		this.languages=new String[] {"Hindi","Telugu","Tamil"};
+		this.movieReleaseDate = movieReleaseDate;
+	}
+
+
 
 	public Integer getMovieId() {
 		return movieId;

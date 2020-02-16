@@ -1,0 +1,15 @@
+package collections;
+
+import java.util.HashMap;
+
+import Repository.Screen;
+import Repository.User;
+
+public class UserCollection {
+
+	static HashMap<Integer,User> ScreenData=new HashMap<Integer,User>();
+	public UserCollection() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

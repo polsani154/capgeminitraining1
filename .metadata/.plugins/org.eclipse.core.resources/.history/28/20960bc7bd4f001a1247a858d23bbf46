@@ -1,0 +1,9 @@
+package practise;
+
+public class integer {
+
+	public integer() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

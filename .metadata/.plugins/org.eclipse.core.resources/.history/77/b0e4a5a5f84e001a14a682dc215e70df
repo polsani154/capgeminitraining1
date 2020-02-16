@@ -1,0 +1,9 @@
+package collections;
+
+public class ShowsCollection {
+
+	public ShowsCollection() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

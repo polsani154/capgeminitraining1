@@ -1,0 +1,21 @@
+package collections;
+
+import java.time.LocalDateTime;
+import java.util.HashMap;
+
+import Repository.Show;
+
+public class ShowCollection {
+
+	static HashMap<Integer,Show> ShowData=new HashMap<Integer,Show>();
+	static
+	{
+		
+		ShowData.put(1001,new Show(1001,LocalDateTime.of(2020, 02, 16, 9, 30),LocalDateTime.of(2020, 02, 16, 12, 30),))
+		ScreenCollection.ScreenData.get(1001).addShow(ScreenCollection.ScreenData.get(1001).getShowList(),ShowData.get(1001) );
+	}
+	public ShowCollection() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

@@ -1,0 +1,18 @@
+package services;
+
+import DAO.ShowAccessModule;
+import Repository.Screen;
+import Repository.Show;
+
+public class UserService {
+
+	public UserService() {
+		// TODO Auto-generated constructor stub
+	}
+	public void printSeatMap(Integer showId)
+	{
+		ShowAccessModule showaccess=new ShowAccessModule();
+		Show show=showaccess.getSeatMap(1001);
+	}
+
+}

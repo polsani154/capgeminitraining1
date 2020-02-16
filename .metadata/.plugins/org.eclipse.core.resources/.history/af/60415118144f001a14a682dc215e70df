@@ -1,0 +1,9 @@
+package DAO;
+
+public class MovieAccessModule {
+
+	public MovieAccessModule() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

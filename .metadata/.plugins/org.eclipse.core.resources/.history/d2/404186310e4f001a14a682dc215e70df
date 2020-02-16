@@ -1,0 +1,15 @@
+package collections;
+
+import java.util.HashMap;
+
+import Repository.Screen;
+
+public class TicketCollection {
+	static HashMap<Integer,Ticket> ScreenData=new HashMap<Integer,Ticket>();
+	public TicketCollection() {
+
+	
+	
+	}
+
+}

@@ -1,0 +1,17 @@
+package collections;
+
+import java.util.HashMap;
+
+import Repository.Theatre;
+
+public class TheatreCollection {
+	static HashMap<Integer,Theatre> TheatreData=new HashMap<Integer,Theatre>();
+	static
+	{
+		
+	}
+	public TheatreCollection() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

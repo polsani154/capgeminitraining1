@@ -1,0 +1,18 @@
+package collections;
+
+import java.util.HashMap;
+
+import DAO.SeatAccessModule;
+import Repository.Seat;
+
+public class SeatCollection {
+
+	static HashMap<Integer,Seat[]> SeatData=new HashMap<Integer,Seat[]>();
+	public SeatCollection() {
+		SeatData.put(1001,SeatAccessModule.createSeatArray(ScreenCollection.ScreenData.get(1001).getRows()*ScreenCollection.ScreenData.get(1001).getColumns(),100.0d));
+		SeatData.put(1004,SeatAccessModule.createSeatArray(ScreenCollection.ScreenData.get(1001).getRows()*ScreenCollection.ScreenData.get(1001).getColumns(),100.0d));
+		
+		// TODO Auto-generated constructor stub
+	}
+
+}

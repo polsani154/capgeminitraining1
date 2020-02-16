@@ -1,0 +1,26 @@
+package practice;
+
+import java.time.LocalDate;
+import java.util.Date;
+
+public class sampledate {
+
+	public sampledate() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+//		LocalDate d=new LocalDate(2019, 10, 19);/
+		LocalDate a=LocalDate.now();
+		LocalDate b=LocalDate.of(2020, 10, 19);
+		
+		System.out.println(a);
+		
+		System.out.println(b);
+		
+
+	}
+
+}

@@ -1,0 +1,21 @@
+package collections;
+
+import java.util.HashMap;
+
+import Repository.Theatre;
+
+public class TheatreCollection {
+	static HashMap<Integer,Theatre> TheatreData=new HashMap<Integer,Theatre>();
+	static
+	{
+		Theatre theatre=new Theatre();
+		theatre.setManagerContact("9573028680");
+		theatre.setManagerName("Sandeep Polsani");
+		theatre.setTheatreCity("warangal");
+		TheatreData.put(1000,theatre);
+	}
+	public TheatreCollection() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

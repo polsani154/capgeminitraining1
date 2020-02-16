@@ -1,0 +1,9 @@
+package collections;
+
+public class UserCollection {
+
+	public UserCollection() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

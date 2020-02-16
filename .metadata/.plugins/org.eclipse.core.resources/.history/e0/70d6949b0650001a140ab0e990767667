@@ -1,0 +1,18 @@
+package collections;
+
+import java.util.HashMap;
+
+import Repository.Show;
+
+public class ShowCollection {
+
+	static HashMap<Integer,Show> ShowData=new HashMap<Integer,Show>();
+	static
+	{
+		ScreenCollection.ScreenData.get(1001).addShow(ScreenCollection.ScreenData.get(1001).getShowList(), new Show());
+	}
+	public ShowCollection() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

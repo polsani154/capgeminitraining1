@@ -1,5 +1,7 @@
 package Repository;
 
+
+
 public class Seat {
 
 	private Integer seatId;
@@ -8,14 +10,16 @@ public class Seat {
 	public Seat() {
 		
 	}
-	public Enum blockSeat()
+	public Seat blockSeat()
 	{
-	return null;	
+		this.seatStatus=BookingState.Blocked;
+		return this;	
 	}
 	
 	public Seat bookSeat()
 	{
-		return null;
+		this.seatStatus=BookingState.Booked;
+		return this;
 	}
 	public Seat cancelSeatBooking()
 	{
