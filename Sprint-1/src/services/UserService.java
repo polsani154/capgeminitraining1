@@ -4,9 +4,10 @@ import collections.ScreenCollection;
 import collections.TheatreCollection;
 import DAO.SeatAccessModule;
 import DAO.ShowAccessModule;
-import Repository.BookingState;
-import Repository.Screen;
-import Repository.Show;
+import Enities.BookingState;
+import Enities.Screen;
+import Enities.Seat;
+import Enities.Show;
 
 public class UserService {
 
@@ -17,7 +18,7 @@ public class UserService {
 	{
 		ShowAccessModule showaccess=new ShowAccessModule();
 		SeatAccessModule seataccess=new SeatAccessModule();
-		Show show=showaccess.getSeatMap(1001);
+		Show show=showaccess.getSeatMap(showId);
 		int columns=ScreenCollection.ScreenData.get(show.getScreenId()).getColumns();
 		for (int i = 0; i < show.getSeats().length; i++) {
 			if(seataccess.isBooked(i+1, show.getShowId()))
@@ -73,6 +74,26 @@ public class UserService {
 		System.out.println("Available Seats : "+availableSeats);
 		System.out.println("Timings : "+show.getShowStartTime().toString() +" to "+show.getShowEndTime().toString());
 		
+	}
+	public static boolean updateScreen()
+	{
+		
+		return false;
+	}
+	public void getSeatDetails(Seat seat)
+	{
+		System.out.println(seat.getSeatId() + "Price : "+seat.getSeatPrice());
+	}
+	public Seat[] chooseSeats(String[] Seats,Integer showid)
+	{
+		ShowAccessModule showaccess=new ShowAccessModule();
+		return showaccess.chooseSeats(Seats, showid);
+		
+	}
+	public boolean updateSeats(String[] seats,Integer showId)
+	{
+		ShowAccessModule showaccess=new ShowAccessModule();
+		return showaccess.updateSeats(seats,showId);
 	}
 
 }

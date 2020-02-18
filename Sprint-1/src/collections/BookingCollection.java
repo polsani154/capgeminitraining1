@@ -2,8 +2,8 @@ package collections;
 
 import java.util.HashMap;
 
-import Repository.Booking;
-import Repository.Screen;
+import Enities.Booking;
+import Enities.Screen;
 
 public class BookingCollection {
 

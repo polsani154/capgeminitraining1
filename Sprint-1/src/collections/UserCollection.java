@@ -2,7 +2,7 @@ package collections;
 
 import java.util.HashMap;
 
-import Repository.User;
+import Enities.User;
 
 public class UserCollection {
 

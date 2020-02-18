@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="controllers.salaryException"/>
-<fullyQualifiedTypeName name="services.IEmployeeDAO"/>
-<fullyQualifiedTypeName name="controllers.validator"/>
-<fullyQualifiedTypeName name="javax.xml.validation.Validator"/>
-<fullyQualifiedTypeName name="java.lang.Iterable"/>
-<fullyQualifiedTypeName name="controllers.IEmployeeDAO"/>
 <fullyQualifiedTypeName name="collections.EmployeeTable"/>
 <fullyQualifiedTypeName name="controllers.EmployeeDAO"/>
 <fullyQualifiedTypeName name="services.EmployeeService"/>
@@ -36,7 +30,6 @@
 <fullyQualifiedTypeName name="java.time.LocalDate"/>
 <fullyQualifiedTypeName name="java.time.temporal.ChronoUnit"/>
 <fullyQualifiedTypeName name="javax.net.ssl.SSLEngineResult.Status"/>
-<fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="practise.SeatType"/>
 <fullyQualifiedTypeName name="practise.Seat"/>
 <fullyQualifiedTypeName name="java.util.HashMap"/>
@@ -46,18 +39,25 @@
 <fullyQualifiedTypeName name="java.time.LocalDateTime"/>
 <fullyQualifiedTypeName name="Repository.seatStatus"/>
 <fullyQualifiedTypeName name="collections.SeatCollection"/>
-<fullyQualifiedTypeName name="java.lang.Integer"/>
 <fullyQualifiedTypeName name="java.util.Date"/>
 <fullyQualifiedTypeName name="Repository.Movie"/>
 <fullyQualifiedTypeName name="javax.naming.LimitExceededException"/>
 <fullyQualifiedTypeName name="java.util.regex.Pattern"/>
 <fullyQualifiedTypeName name="Repository.Screen"/>
-<fullyQualifiedTypeName name="DAO.ShowAccessModule"/>
 <fullyQualifiedTypeName name="Repository.Show"/>
-<fullyQualifiedTypeName name="collections.ShowCollection"/>
-<fullyQualifiedTypeName name="services.UserService"/>
 <fullyQualifiedTypeName name="DAO.SeatAccessModule"/>
 <fullyQualifiedTypeName name="collections.TheatreCollection"/>
 <fullyQualifiedTypeName name="Repository.BookingState"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="services.AdminService"/>
+<fullyQualifiedTypeName name="DAO.ScreenAccessModule"/>
+<fullyQualifiedTypeName name="Enities.BookingState"/>
+<fullyQualifiedTypeName name="DAO.ShowAccessModule"/>
+<fullyQualifiedTypeName name="services.UserService"/>
 <fullyQualifiedTypeName name="collections.ScreenCollection"/>
+<fullyQualifiedTypeName name="Enities.Show"/>
+<fullyQualifiedTypeName name="Enities.Screen"/>
+<fullyQualifiedTypeName name="Enities.Seat"/>
+<fullyQualifiedTypeName name="collections.ShowCollection"/>
 </qualifiedTypeNameHistroy>

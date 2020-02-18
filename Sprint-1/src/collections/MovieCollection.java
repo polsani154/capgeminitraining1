@@ -2,7 +2,7 @@ package collections;
 
 import java.util.HashMap;
 
-import Repository.*;
+import Enities.*;
 
 public class MovieCollection {
 

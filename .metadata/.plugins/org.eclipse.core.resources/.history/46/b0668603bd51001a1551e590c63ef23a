@@ -1,0 +1,44 @@
+package client;
+
+import java.util.Scanner;
+
+import services.UserService;
+import collections.ShowCollection;
+
+public class User {
+
+	public User() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public static void main(String[] args)
+	{
+		System.out.println("*************WELCOME TO MOVIE BOOKING SYSTEM****************");
+	Scanner sc=new Scanner(System.in);
+	do
+	{
+		System.out.println("Menu");
+		System.out.println("1. Select Screen");
+		int choice=sc.nextInt();
+		switch(choice)
+		{
+		
+		}
+	}while(true);
+		
+		
+	}
+}
+
+//
+//ShowCollection.ShowData.get(1001).getSeats()[10].bookSeat();
+//ShowCollection.ShowData.get(1001).getSeats()[9].bookSeat();
+//ShowCollection.ShowData.get(1001).getSeats()[1].blockSeat();
+//ShowCollection.ShowData.get(1001).getSeats()[20].bookSeat();
+//ShowCollection.ShowData.get(1001).getSeats()[21].bookSeat();
+//ShowCollection.ShowData.get(1001).getSeats()[24].bookSeat();
+//UserService service=new UserService();
+//service.printSeatMap(1001);
+//System.out.println();
+//service.printSeatMap(1002);
+//service.getShowDeatails("MorningShow");

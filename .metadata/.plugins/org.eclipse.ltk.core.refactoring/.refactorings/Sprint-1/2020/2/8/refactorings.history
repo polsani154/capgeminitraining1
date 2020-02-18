@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;Repository&apos; to &apos;Enities&apos;&#x0D;&#x0A;- Original project: &apos;Sprint-1&apos;&#x0D;&#x0A;- Original element: &apos;Sprint-1/src/Repository&apos;&#x0D;&#x0A;- Renamed element: &apos;Sprint-1/src/Enities&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;Repository&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;Repository" name="Enities" qualified="false" references="true" stamp="1581922613992" textual="false" version="1.0"/>
+</session>

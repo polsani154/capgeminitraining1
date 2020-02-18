@@ -2,7 +2,7 @@ package collections;
 
 import java.util.HashMap;
 
-import Repository.Theatre;
+import Enities.Theatre;
 
 public class TheatreCollection {
 	public static HashMap<Integer,Theatre> TheatreData=new HashMap<Integer,Theatre>();

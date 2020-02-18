@@ -3,7 +3,7 @@ package collections;
 import java.util.HashMap;
 
 import DAO.SeatAccessModule;
-import Repository.Seat;
+import Enities.Seat;
 
 public class SeatCollection {
 

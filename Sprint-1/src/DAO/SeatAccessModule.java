@@ -1,9 +1,9 @@
 package DAO;
 
 import collections.ShowCollection;
-import Repository.BookingState;
-import Repository.Seat;
-import Repository.Show;
+import Enities.BookingState;
+import Enities.Seat;
+import Enities.Show;
 
 public class SeatAccessModule {
 

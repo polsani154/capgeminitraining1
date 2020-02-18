@@ -1,0 +1,29 @@
+package DAO;
+
+import Enities.Seat;
+import Enities.Show;
+import collections.ShowCollection;
+
+public class ShowAccessModule {
+
+	public ShowAccessModule() {
+		// TODO Auto-generated constructor stub
+	}
+	public Show getSeatMap(Integer showId)
+	{
+		return ShowCollection.ShowData.get(showId);
+		
+	}
+	public boolean AddShow()
+	{
+		System.out.println();
+		return false;
+	}
+	public Seat [] updateSeats(String[] Seats)
+	{
+		
+		return null;
+	}
+	
+
+}
