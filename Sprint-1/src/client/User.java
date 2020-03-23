@@ -1,6 +1,7 @@
 package client;
 
 import java.util.Scanner;
+import java.util.logging.Logger;
 
 import Enities.Screen;
 import Enities.Seat;
@@ -37,8 +38,22 @@ public class User {
 		{
 		case 1:
 		{
+			
+			
+			Show[] showlist=ScreenCollection.getScreenData().get(1001).getShowList();
+			if(showlist==null) 
+			{
+				System.out.println("No shows in the list");
+				break;
+			}
+			for (int i = 0; i < showlist.length; i++) {
+				System.out.println(showlist[i].getShowName());
+			}	
+
+			
 			System.out.println("Enter show name ");
 			service.getShowDeatails(sc.next());
+			
 			break;
 		}
 		case 2:
@@ -68,7 +83,10 @@ public class User {
 			System.out.println("Select Seats separated by comma");
 			
 			Seat []selectedseats= shows[ch-1].chooseSeats(sc.next().split(","));
-			if(selectedseats==null) {System.out.println("Invalid seats selected"); break;}
+			if(selectedseats==null) {
+				System.out.println("Invalid seats selected"); 
+				break;
+				}
 			System.out.println("Your selected seats are :");
 			for (int i = 0; i < selectedseats.length; i++) {
 				service.getSeatDetails(selectedseats[i]);

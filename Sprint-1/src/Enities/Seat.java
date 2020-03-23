@@ -12,21 +12,35 @@ public class Seat {
 	}
 	public Seat blockSeat()
 	{
-		this.seatStatus=BookingState.Blocked;
+		this.setSeatStatus(BookingState.Blocked);
 		return this;	
 	}
 	
 	public Seat bookSeat()
 	{
+		
+		if(this.seatStatus==BookingState.Blocked || this.seatStatus==BookingState.Booked )
+		{
+			return null;
+		}
+		
 		this.seatStatus=BookingState.Booked;
-		return this;
+		return this;		
+
 	}
 	public Seat cancelSeatBooking()
 	{
+		if(this.seatStatus==BookingState.Booked)
+		{
+			this.setSeatStatus(BookingState.Available);
+			return this;
+		}
+		
 		return null;
 	}
 	public Enum unBlockSeat()
 	{
+		this.setSeatStatus(BookingState.Available);
 		return null;
 	}
 	public Integer getSeatId() {

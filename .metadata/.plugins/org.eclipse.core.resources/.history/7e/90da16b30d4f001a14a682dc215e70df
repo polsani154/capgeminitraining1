@@ -1,9 +1,0 @@
-package collections;
-
-public class ScreenCollection {
-
-	public ScreenCollection() {
-		// TODO Auto-generated constructor stub
-	}
-	
-}

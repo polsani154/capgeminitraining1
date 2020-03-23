@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="collections.EmployeeTable"/>
 <fullyQualifiedTypeName name="controllers.EmployeeDAO"/>
 <fullyQualifiedTypeName name="services.EmployeeService"/>
 <fullyQualifiedTypeName name="mocktest.CurrentAccount"/>
@@ -52,12 +51,13 @@
 <fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="services.AdminService"/>
 <fullyQualifiedTypeName name="DAO.ScreenAccessModule"/>
-<fullyQualifiedTypeName name="Enities.BookingState"/>
 <fullyQualifiedTypeName name="DAO.ShowAccessModule"/>
-<fullyQualifiedTypeName name="services.UserService"/>
 <fullyQualifiedTypeName name="collections.ScreenCollection"/>
-<fullyQualifiedTypeName name="Enities.Show"/>
-<fullyQualifiedTypeName name="Enities.Screen"/>
-<fullyQualifiedTypeName name="Enities.Seat"/>
 <fullyQualifiedTypeName name="collections.ShowCollection"/>
+<fullyQualifiedTypeName name="java.util.logging.Logger"/>
+<fullyQualifiedTypeName name="services.UserService"/>
+<fullyQualifiedTypeName name="Enities.Screen"/>
+<fullyQualifiedTypeName name="Enities.Show"/>
+<fullyQualifiedTypeName name="Enities.Seat"/>
+<fullyQualifiedTypeName name="Enities.BookingState"/>
 </qualifiedTypeNameHistroy>

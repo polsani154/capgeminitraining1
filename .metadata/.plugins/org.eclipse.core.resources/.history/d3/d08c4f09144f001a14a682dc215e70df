@@ -1,9 +1,0 @@
-package DAO;
-
-public class TheatreAccessModule {
-
-	public TheatreAccessModule() {
-		// TODO Auto-generated constructor stub
-	}
-
-}

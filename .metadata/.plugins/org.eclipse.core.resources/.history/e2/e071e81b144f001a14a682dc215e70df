@@ -1,9 +1,0 @@
-package DAO;
-
-public class BoookingAccessModule {
-
-	public BoookingAccessModule() {
-		// TODO Auto-generated constructor stub
-	}
-
-}

@@ -56,7 +56,7 @@ public class Screen {
 	public Show searchShow(String showName)
 	{
 		for (Show show : ShowCollection.ShowData.values()) {
-			if(show.getShowName().equals(showName) && show.getTheatreId()==1001)
+			if((show.getShowName().compareToIgnoreCase(showName)==0 || show.getShowName().matches("(?i:.*"+showName+".*)")) && show.getTheatreId()==1001)
 			{
 				return show;
 			}

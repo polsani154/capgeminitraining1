@@ -1,9 +1,0 @@
-package DAO;
-
-public class UserAccessModule {
-
-	public UserAccessModule() {
-		// TODO Auto-generated constructor stub
-	}
-
-}
